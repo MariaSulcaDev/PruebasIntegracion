@@ -1,0 +1,17 @@
+{
+  "name": "prw-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test:selenium": "node selenium/test-personas.js",
+    "test:playwright": "npx playwright test --config=playwright/playwright.config.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "pdfkit": "^0.19.1",
+    "selenium-webdriver": "^4.25.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
